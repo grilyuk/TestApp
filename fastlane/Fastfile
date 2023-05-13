@@ -1,0 +1,6 @@
+default_platform(:ios)
+
+desc "Test"
+lane :test_run do |options|
+  scan
+end
